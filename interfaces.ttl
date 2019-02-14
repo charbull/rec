@@ -18,11 +18,9 @@
 .
 :Component
   a owl:Class ;
-  rdfs:subClassOf owl:Thing ;
 .
 :Device
   a owl:Class ;
-  rdfs:subClassOf owl:Thing ;
 .
 :Event
   a owl:Class ;
