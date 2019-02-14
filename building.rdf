@@ -1,0 +1,513 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns="http://w3id.org/rec/building/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:core="http://w3id.org/rec/core/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://w3id.org/rec/building/">
+  <owl:Ontology rdf:about="">
+    <rdfs:seeAlso xml:lang="en">See also the RealEstateCore’s homepage at http://realestatecore.io/ for latest version and more information.</rdfs:seeAlso>
+    <owl:imports rdf:resource="http://w3id.org/rec/core/"/>
+    <owl:versionIRI rdf:resource="http://w3id.org/rec/building/2.2/"/>
+  </owl:Ontology>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Bathroom">
+    <rdfs:label xml:lang="en">Bathroom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">25.25-03
+25.25-05</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTABA</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <rdf:Description rdf:about="http://w3id.org/rec/core/Room">
+        <core:comparableCoClass xml:lang="en">UT</core:comparableCoClass>
+      </rdf:Description>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/RetailPremises">
+    <rdfs:label xml:lang="en">RetailPremises</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Premises"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/CloakRoom">
+    <rdfs:label xml:lang="en">CloakRoom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">23.23-08</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTEAA</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/LaboratoryPremises">
+    <rdfs:label xml:lang="en">LaboratoryPremises</rdfs:label>
+    <core:comparableCoClass xml:lang="en">BVAEC</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Premises"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/ResidentialPremises">
+    <rdfs:label xml:lang="en">ResidentialPremises</rdfs:label>
+    <core:comparableCoClass xml:lang="en">BVAA</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Premises"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Pentry">
+    <rdfs:label xml:lang="en">Pentry</rdfs:label>
+    <core:comparableFi2 xml:lang="en">25.25-09</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTBBA</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/FoodHandlingRoom"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/LaundryRoom">
+    <rdfs:label xml:lang="en">LaundryRoom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">25.25-15</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTBAG</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/RecreationalRoom">
+    <rdfs:label xml:lang="en">RecreationalRoom</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTBE</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/ElectricityRoom">
+    <rdfs:label xml:lang="en">ElectricityRoom</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTDAA</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/UtilitiesRoom"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/ExerciseRoom">
+    <rdfs:label xml:lang="en">ExerciseRoom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">20.20-14</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTBDB</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/PhoneBooth">
+    <rdfs:label xml:lang="en">PhoneBooth</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTBAB</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/Office"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/WasteManagementRoom">
+    <rdfs:seeAlso xml:lang="en">Recycling room</rdfs:seeAlso>
+    <rdfs:label xml:lang="en">WasteManagementRoom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">28.28-10</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTCAA</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/StaffRoom">
+    <rdfs:label xml:lang="en">StaffRoom</rdfs:label>
+    <rdfs:comment xml:lang="en">Room for staff to take breaks.</rdfs:comment>
+    <core:comparableCoClass xml:lang="en">UTAAB</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/CopyingRoom">
+    <rdfs:label xml:lang="en">CopyingRoom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">20.20-06</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTBB</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/RestingPlace">
+    <rdfs:label xml:lang="en">RestingPlace</rdfs:label>
+    <core:comparableFi2 xml:lang="en">20.20-09</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTAAA</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/Office"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/EducationalPremises">
+    <rdfs:label xml:lang="en">EducationalPremises</rdfs:label>
+    <core:comparableCoClass xml:lang="en">BVAH</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Premises"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/OfficeLandscape">
+    <rdfs:label xml:lang="en">OfficeLandscape</rdfs:label>
+    <core:comparableFi2 xml:lang="en">20.20-02</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTBAA</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/Office"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Toilet">
+    <rdfs:label xml:lang="en">Toilet</rdfs:label>
+    <core:comparableFi2 xml:lang="en">25.25-01</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTABB</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/PersonalHygiene"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/ConferenceRoom">
+    <rdfs:label xml:lang="en">ConferenceRoom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">20.20-03</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTBAB</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/TelecommunicationRoom">
+    <rdfs:label xml:lang="en">TelecommunicationRoom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">26.26-06
+26.26-07</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTDAB</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/UtilitiesRoom"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/ClimateControlRoom">
+    <rdfs:label xml:lang="en">ClimateControlRoom</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTDAD</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/UtilitiesRoom"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Reception">
+    <rdfs:label xml:lang="en">Reception</rdfs:label>
+    <core:comparableFi2 xml:lang="en">20.20-05</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTBAC</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/ShelterGasLock">
+    <rdfs:label xml:lang="en">ShelterGasLock</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTACA</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/Shelter"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/MainEntrance">
+    <rdfs:label xml:lang="en">MainEntrance</rdfs:label>
+    <core:comparableFi2 xml:lang="en">23.23-01</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTEAA</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/Entrance"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/SmallStudyRoom">
+    <rdfs:label xml:lang="en">SmallStudyRoom</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTBAF</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/EducationalRoom"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/ShowerRoom">
+    <rdfs:label xml:lang="en">ShowerRoom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">25.25-04</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTABE</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/PersonalHygiene"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/HotelPremises">
+    <rdfs:label xml:lang="en">HotelPremises</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Premises"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Office">
+    <rdfs:label xml:lang="en">Office</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTBAA</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Garage">
+    <rdfs:label xml:lang="en">Garage</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTCBD</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/CleaningRoom">
+    <rdfs:label xml:lang="en">CleaningRoom</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTBAG</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/ElevatorRoom">
+    <rdfs:label xml:lang="en">ElevatorRoom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">26.26-09</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTEAE</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/OfficeRoom">
+    <rdfs:label xml:lang="en">OfficeRoom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">20.20-01</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTBAA</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/building/Office"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Hallway">
+    <rdfs:label xml:lang="en">Hallway</rdfs:label>
+    <core:comparableFi2 xml:lang="en">23.23-03</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTEAC</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/DressingRoom">
+    <rdfs:label xml:lang="en">DressingRoom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">28.28-06</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTABD</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Bedroom">
+    <rdfs:label xml:lang="en">Bedroom</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTAAA</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/BackOffice">
+    <rdfs:label xml:lang="en">BackOffice</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTBBE</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/BarRoom">
+    <rdfs:label xml:lang="en">BarRoom</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/PersonalHygiene">
+    <rdfs:label xml:lang="en">PersonalHygiene</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTAB</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/GroupRoom">
+    <rdfs:label xml:lang="en">GroupRoom</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTBAE</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/EducationalRoom"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/UtilitiesRoom">
+    <rdfs:label xml:lang="en">UtilitiesRoom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">26.26-</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTDA</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/FoodHandlingRoom">
+    <rdfs:label xml:lang="en">FoodHandlingRoom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">25.25-09</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTBBA</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/LivingRoom">
+    <rdfs:label xml:lang="en">LivingRoom</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTAAB</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Entrance">
+    <rdfs:label xml:lang="en">Entrance</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTEAA</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/ExhibitionRoom">
+    <rdfs:label xml:lang="en">ExhibitionRoom</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTBEC</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Storage">
+    <rdfs:label xml:lang="en">Storage</rdfs:label>
+    <core:comparableFi2 xml:lang="en">28.28-03</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTC</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/LaboratoryWet">
+    <rdfs:label xml:lang="en">LaboratoryWet</rdfs:label>
+    <rdfs:comment xml:lang="en">A LaboratoryWet is a type of laboratory where it is necessary to handle various types of chemicals and potential "wet" hazards, so the room has to be carefully designed, constructed, and controlled to avoid spillage and contamination.</rdfs:comment>
+    <core:comparableCoClass xml:lang="en">UTBC</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/Laboratory"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Sauna">
+    <rdfs:label xml:lang="en">Sauna</rdfs:label>
+    <core:comparableFi2 xml:lang="en">25.25-06</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTABF</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/building/PersonalHygiene"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/DataServerRoom">
+    <rdfs:label xml:lang="en">DataServerRoom</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTDAB</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/building/UtilitiesRoom"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/LightIndustryPremises">
+    <rdfs:label xml:lang="en">LightIndustryPremises</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Premises"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/ShelterRoom">
+    <rdfs:label xml:lang="en">ShelterRoom</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTACA</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/Shelter"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Library">
+    <rdfs:label xml:lang="en">Library</rdfs:label>
+    <core:comparableFi2 xml:lang="en">20.20-11</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTCAD</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Theater">
+    <rdfs:label xml:lang="en">Theater</rdfs:label>
+    <core:comparableFi2 xml:lang="en">22.22-04</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTBDD</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Shelter">
+    <rdfs:label xml:lang="en">Shelter</rdfs:label>
+    <core:comparableFi2 xml:lang="en">24.24-01</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTACA</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/TreatmentWaitingRoom">
+    <rdfs:label xml:lang="en">TreatmentWaitingRoom</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTAAC</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/TreatmentRoom"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/ServiceShaft">
+    <rdfs:label xml:lang="en">ServiceShaft</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTEA</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/ConversationRoom">
+    <rdfs:label xml:lang="en">ConversationRoom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">20.20-04</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTBAH</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Cabinet">
+    <rdfs:label xml:lang="en">Cabinet</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/building/UtilitiesRoom"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/RestaurantPremises">
+    <rdfs:label xml:lang="en">RestaurantPremises</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Premises"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/TreatmentRoom">
+    <rdfs:label xml:lang="en">TreatmentRoom</rdfs:label>
+    <rdfs:comment xml:lang="en">For e.g. medical or other treatment or consultation.</rdfs:comment>
+    <core:comparableCoClass xml:lang="en">UTBAH</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/StoragePremises">
+    <rdfs:label xml:lang="en">StoragePremises</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Premises"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/ServiceEntrance">
+    <rdfs:label xml:lang="en">ServiceEntrance</rdfs:label>
+    <core:comparableFi2 xml:lang="en">23.23-01</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTEAA</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/building/Entrance"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Auditorium">
+    <rdfs:label xml:lang="en">Auditorium</rdfs:label>
+    <core:comparableFi2 xml:lang="en">20.20-12
+22.22-04</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTBEB</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/CookingRoom">
+    <rdfs:label xml:lang="en">CookingRoom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">25.25-09</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTBBA</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/building/FoodHandlingRoom"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/EducationalRoom">
+    <rdfs:label xml:lang="en">EducationalRoom</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTBAE</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/ParkingSlotWarm">
+    <rdfs:label xml:lang="en">ParkingSlotWarm</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTCBD</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/building/Garage"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Stairwell">
+    <rdfs:label xml:lang="en">Stairwell</rdfs:label>
+    <core:comparableFi2 xml:lang="en">23.23-04</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTEAD</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Workshop">
+    <rdfs:label xml:lang="en">Workshop</rdfs:label>
+    <core:comparableFi2 xml:lang="en">27.27-11</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTBB</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/DisabledToilet">
+    <rdfs:seeAlso xml:lang="en">RWC</rdfs:seeAlso>
+    <rdfs:seeAlso xml:lang="en">HWC</rdfs:seeAlso>
+    <rdfs:label xml:lang="en">DisabledToilet</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTABB</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/building/PersonalHygiene"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/RecordingRoom">
+    <rdfs:label xml:lang="en">RecordingRoom</rdfs:label>
+    <rdfs:comment xml:lang="en">Room for making audio and/or video recordings. A.ka. studio.</rdfs:comment>
+    <core:comparableCoClass xml:lang="en">UTBAM</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/LaboratoryDry">
+    <rdfs:label xml:lang="en">LaboratoryDry</rdfs:label>
+    <rdfs:comment xml:lang="en">A LaboratoryDry is a laboratory where computational or applied mathematical analyses are done on a computer-generated model to simulate a phenomenon in the physical realm.</rdfs:comment>
+    <core:comparableCoClass xml:lang="en">UTBC</core:comparableCoClass>
+    <rdfs:subClassOf>
+      <owl:Class rdf:about="http://w3id.org/rec/building/Laboratory"/>
+    </rdfs:subClassOf>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/DiningRoom">
+    <rdfs:label xml:lang="en">DiningRoom</rdfs:label>
+    <core:comparableFi2 xml:lang="en">20.20-08</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTBEA</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/BicycleGarage">
+    <rdfs:label xml:lang="en">BicycleGarage</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTCBD</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/building/Garage"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/ParkingSlotCold">
+    <rdfs:label xml:lang="en">ParkingSlotCold</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTCBD</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/building/Garage"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/OfficePremises">
+    <rdfs:label xml:lang="en">OfficePremises</rdfs:label>
+    <core:comparableCoClass xml:lang="en">BVAEA</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Premises"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Laboratory">
+    <rdfs:label xml:lang="en">Laboratory</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTBC</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/ElevatorShaft">
+    <rdfs:label xml:lang="en">ElevatorShaft</rdfs:label>
+    <core:comparableFi2 xml:lang="en">26.26-09</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTEAE</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/RestingRoom">
+    <rdfs:label xml:lang="en">RestingRoom</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTAAA</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Classroom">
+    <rdfs:label xml:lang="en">Classroom</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTBAE</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/building/EducationalRoom"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Cinema">
+    <rdfs:label xml:lang="en">Cinema</rdfs:label>
+    <core:comparableFi2 xml:lang="en">22.22-04</core:comparableFi2>
+    <core:comparableCoClass xml:lang="en">UTBEB</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/GaragePremises">
+    <rdfs:label xml:lang="en">GaragePremises</rdfs:label>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Premises"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://w3id.org/rec/building/Atrium">
+    <rdfs:label xml:lang="en">Atrium</rdfs:label>
+    <core:comparableCoClass xml:lang="en">UTAAB</core:comparableCoClass>
+    <rdfs:subClassOf rdf:resource="http://w3id.org/rec/core/Room"/>
+  </owl:Class>
+  <rdf:Description rdf:about="http://w3id.org/rec/core/Coil">
+    <core:comparableHaystack xml:lang="en">coil</core:comparableHaystack>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/rec/core/Boiler">
+    <core:comparableHaystack xml:lang="en">boiler</core:comparableHaystack>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/rec/core/Temperature">
+    <core:comparableCoClass xml:lang="en">KOBTB</core:comparableCoClass>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/rec/core/Sound">
+    <core:comparableCoClass xml:lang="en">KOBXA</core:comparableCoClass>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://w3id.org/rec/core/SecondaryCoolingReturn">
+    <core:comparableCoClass xml:lang="en">--------36</core:comparableCoClass>
+  </rdf:Description>
+</rdf:RDF>
+
+<!-- Created with TopBraid -->

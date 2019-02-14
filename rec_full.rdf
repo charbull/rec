@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:device="http://w3id.org/rec/device/"
+    xmlns:building="http://w3id.org/rec/building/"
+    xmlns="http://w3id.org/rec/rec_full/"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:core="http://w3id.org/rec/core/"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+  xml:base="http://w3id.org/rec/rec_full/">
+  <owl:Ontology rdf:about="">
+    <owl:imports rdf:resource="http://w3id.org/rec/building/"/>
+    <owl:imports rdf:resource="http://w3id.org/rec/device/"/>
+    <rdfs:comment>This ontology imports all RealEstateCore (REC) modules and thus gives the fullest expressivity that REC allows. You can use this ontology as-is, or you can construct your own ontology by importing individual REC modules.</rdfs:comment>
+    <rdfs:label>RealEstateCore Full</rdfs:label>
+    <owl:versionIRI rdf:resource="http://w3id.org/rec/rec_full/2.2/"/>
+  </owl:Ontology>
+</rdf:RDF>
+
+<!-- Created with TopBraid -->
